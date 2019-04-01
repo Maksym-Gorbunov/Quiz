@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
+	<title>Quizmaster</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" href="img/favicon-16x16.png" type="image/gif" sizes="16x16">
+	<!-- jQuery for Bootstrap only, all events and back-end are vanilla javascript -->
+	<script src="bootstrap/jquery-3.2.1.min.js"></script>
+	<script src="bootstrap/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+	<link rel="stylesheet" href="styles/quiz.css">
+	<link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
+</head>
+<body>
+	<div class="main_container" id="main_container">
+		<h2>Quizmaster</h2>
+
+		<div class="progress">
+		  <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" id="progress_line">
+		    0%
+		  </div>
+		</div>
+		
+		<div id="question_number"></div>
+		<ul id="ul_data">
+   		<li id="category_li" class="list-group-item list-group-item-info">Category</li>
+			<li id="difficulty_li" class="list-group-item list-group-item-info">Difficulty</li>
+			<li id="question_li" class="list-group-item list-group-item-info">Question</li>
+		</ul>
+	
+		<form id="form_answers" action=""></form>
+	
+		<a href="index.html" id="restart" class="btn btn-warning">RESTART</a>
+		<button id="btn_next" class="btn btn-info" onclick="next()">NEXT</button>
+	</div>
+		
+<script src='script/quiz.js'></script>	
+<!-- <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>	 -->
+</body>
+</html>

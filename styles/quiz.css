@@ -1,0 +1,116 @@
+body{
+	background:
+	linear-gradient(135deg, #708090 21px, #d9ecff 22px, #d9ecff 24px, transparent 24px, transparent 67px, #d9ecff 67px, #d9ecff 69px, transparent 69px),
+	linear-gradient(225deg, #708090 21px, #d9ecff 22px, #d9ecff 24px, transparent 24px, transparent 67px, #d9ecff 67px, #d9ecff 69px, transparent 69px)0 64px;
+	background-color:#708090;
+	background-size: 64px 128px;
+}
+.main_container{
+	position: relative;
+	opacity: 0.97;
+	min-height: 100vh;
+	background-color:#708090;
+	border-left: 3px solid #d9ecff;
+  border-right: 3px solid #d9ecff;
+	width: 70%;
+	margin: 0 auto;
+	padding: 10px 20px;
+}
+ul{
+	opacity: 1;
+	padding: 0;
+}
+li{
+	margin: 5px 0;
+}
+#ul_data > li{
+	color: white;
+	background-color: #708090;
+}
+h2{
+	margin-top: 0;
+	color: #F0AD4E;
+	text-align: center;
+	font-weight: 600;
+}
+#form_answers > li{
+	padding: 0;
+	background-color: #899CAE;
+	color: white;
+	font-weight: 400;
+}
+label{
+	display: block;
+	margin: 0;
+	padding: 10px 15px;
+}
+button{
+	width: 40%;
+	float: right;
+}
+#restart{
+	width: 20%;
+}
+#question_number{
+	color: white;
+	background-color: #9AAEF1;
+	line-height: 4em;
+	width: 4em;
+	height: 4em;
+	text-align: center;
+	border-radius: 50%;
+	margin: 20px auto;
+}
+form{
+	margin-bottom: 10px;
+}
+#progress_line{
+	min-width: 2em; 
+	width: 0%;
+	background-color: #9AAEF1;
+}
+.progress{
+	border: 1px solid #FFFFFF;
+}
+#btn_next{
+	background-color: #9AAEF1;
+}
+span{
+	margin-left: 1em;
+	font-family: 'Questrial', sans-serif;
+	letter-spacing: 0.15em;
+}
+
+@media only screen and (max-width: 800px) {
+  .main_container{
+		opacity: 1;
+		height: 100%;
+		width: 100%;
+		margin: 0;
+		padding: 1em;
+	}
+	#restart, button{
+		float: none;
+		display: block;
+		margin-bottom: 1em;
+		width: 100%;
+		font-weight: 600;
+	}
+	li{
+		border:  3px solid ;
+	}
+	#category_li, #difficulty_li{
+		display: none;
+	}
+	ul{
+		min-height: none;
+	}	
+	form{
+		min-height: none;
+	}
+}
+
+* {
+	font-family: 'Questrial', sans-serif;
+	letter-spacing: 0.15em;
+}
