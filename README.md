@@ -10,7 +10,9 @@ Technology Stack:
 Testad in Chrome for Windows and mobile Chome for Samsung J5.
 
 
-For start click: http://maxcoder.pro/projects/quiz001/index.html
+For start click: http://maxcoder.pro
+
+![](quiz.png)
 
 
 
